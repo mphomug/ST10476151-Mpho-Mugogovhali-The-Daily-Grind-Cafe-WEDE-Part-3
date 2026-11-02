@@ -59,5 +59,12 @@ JavaScript validation was added to both the enquiry and contact forms to check t
 Search Engine Optimisation (SEO):
 Search Engine Optimisation (SEO) improvements were made to help search engines understand the content of The Daily Grind Café website. Unique page titles, meta descriptions and keywords were added to all five HTML pages. Headings were organised to make the website content easier to understand, while alternative text was added to images to improve accessibility.
 A sitemap.xml file was created to list the website pages, and a robots.txt file was added to provide instructions to search engine crawlers. The website also includes relevant café information, such as its location in Melville, Johannesburg, contact details and opening hours, to support local search visibility.
+Website Deployment and Hosting
+
+The Daily Grind Café website was deployed using Netlify. The website files were uploaded to GitHub and connected to Netlify for hosting. Netlify automatically publishes the website and provides a public link that allows users to access it through a web browser.
+
+Live Website: https://luminous-gelato-85d604.netlify.app
+
+The website was tested after deployment to check that the pages were accessible and that the website displayed correctly.
 
 
