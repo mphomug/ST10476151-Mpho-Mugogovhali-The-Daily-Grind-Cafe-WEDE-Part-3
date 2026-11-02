@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
 
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://yourwebsite.com/index.html</loc>
+        <loc>https://luminous-gelato-85d604.netlify.app/</loc>
     </url>
 
     <url>
-        <loc>https://yourwebsite.com/about.html</loc>
+        <loc>https://luminous-gelato-85d604.netlify.app/about.html</loc>
     </url>
 
     <url>
-        <loc>https://yourwebsite.com/menu.html</loc>
+        <loc>https://luminous-gelato-85d604.netlify.app/menu.html</loc>
     </url>
 
     <url>
-        <loc>https://yourwebsite.com/enquiry.html</loc>
+        <loc>https://luminous-gelato-85d604.netlify.app/enquiry.html</loc>
     </url>
 
     <url>
-        <loc>https://yourwebsite.com/contact.html</loc>
+        <loc>https://luminous-gelato-85d604.netlify.app/contact.html</loc>
     </url>
 
 </urlset>
