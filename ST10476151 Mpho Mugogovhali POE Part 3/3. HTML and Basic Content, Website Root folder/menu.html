@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Menu | Coffee and Light Meals in Melville</title>
+
+    <meta name="description" content="Explore The Daily Grind Café menu in Melville, Johannesburg, featuring freshly brewed coffee, cappuccinos, lattes, sandwiches and light meals.">
+
+    <meta name="keywords" content="Melville café menu, coffee prices Johannesburg, cappuccino, espresso, light meals, sandwiches">
+
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <h1>
+                <img src="images/logo.png"
+                     alt="The Daily Grind Café logo"
+                     width="150"
+                     height="150">
+                The Daily Grind Café
+            </h1>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" aria-current="page">Menu</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu Section -->
+    <main>
+        <section>
+            <h2>Our Menu</h2>
+
+            <p>
+                Enjoy freshly prepared drinks and delicious meals
+                at The Daily Grind Café.
+            </p>
+
+            <!-- Menu Search -->
+            <div class="menu-search">
+                <input
+                    type="text"
+                    id="menuSearch"
+                    placeholder="Search for coffee, meals, or treats..."
+                    aria-label="Search menu items">
+            </div>
+
+            <!-- Coffee Menu -->
+            <section>
+                <h3>Coffee and Hot Drinks</h3>
+
+                <ul class="menu-list">
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Espresso — R30</summary>
+                            <div class="menu-item-details">
+                                <p>A rich, freshly brewed shot of espresso.</p>
+                                <button class="add-to-cart" data-name="Espresso" data-price="30">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Americano — R32</summary>
+                            <div class="menu-item-details">
+                                <p>Espresso combined with hot water.</p>
+                                <button class="add-to-cart" data-name="Americano" data-price="32">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Cappuccino — R38</summary>
+                            <div class="menu-item-details">
+                                <p>Espresso with steamed milk and creamy foam.</p>
+                                <button class="add-to-cart" data-name="Cappuccino" data-price="38">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Caffé Latte — R40</summary>
+                            <div class="menu-item-details">
+                                <p>Smooth espresso blended with steamed milk.</p>
+                                <button class="add-to-cart" data-name="Caffé Latte" data-price="40">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Flat White — R40</summary>
+                            <div class="menu-item-details">
+                                <p>Espresso with velvety steamed milk.</p>
+                                <button class="add-to-cart" data-name="Flat White" data-price="40">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Mocha — R45</summary>
+                            <div class="menu-item-details">
+                                <p>A delicious combination of espresso and chocolate.</p>
+                                <button class="add-to-cart" data-name="Mocha" data-price="45">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Macchiato — R35</summary>
+                            <div class="menu-item-details">
+                                <p>A shot of espresso topped with a small amount of foamed milk.</p>
+                                <button class="add-to-cart" data-name="Macchiato" data-price="35">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Cortado — R38</summary>
+                            <div class="menu-item-details">
+                                <p>Espresso balanced with a small amount of steamed milk.</p>
+                                <button class="add-to-cart" data-name="Cortado" data-price="38">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Iced Coffee — R45</summary>
+                            <div class="menu-item-details">
+                                <p>Chilled coffee served over ice for a refreshing drink.</p>
+                                <button class="add-to-cart" data-name="Iced Coffee" data-price="45">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Iced Latte — R48</summary>
+                            <div class="menu-item-details">
+                                <p>Espresso mixed with cold milk and served over ice.</p>
+                                <button class="add-to-cart" data-name="Iced Latte" data-price="48">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Caramel Latte — R48</summary>
+                            <div class="menu-item-details">
+                                <p>A smooth latte blended with sweet caramel flavour.</p>
+                                <button class="add-to-cart" data-name="Caramel Latte" data-price="48">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- Light Meals -->
+            <section>
+                <h3>Light Meals</h3>
+
+                <ul class="menu-list">
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Avocado Toast — R55</summary>
+                            <div class="menu-item-details">
+                                <p>Fresh avocado served on toasted bread.</p>
+                                <button class="add-to-cart" data-name="Avocado Toast" data-price="55">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Breakfast Sandwich — R60</summary>
+                            <div class="menu-item-details">
+                                <p>A freshly prepared sandwich for a satisfying breakfast.</p>
+                                <button class="add-to-cart" data-name="Breakfast Sandwich" data-price="60">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Grilled Cheese Sandwich — R58</summary>
+                            <div class="menu-item-details">
+                                <p>Toasted bread filled with melted cheese.</p>
+                                <button class="add-to-cart" data-name="Grilled Cheese Sandwich" data-price="58">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Chicken &amp; Salad Wrap — R65</summary>
+                            <div class="menu-item-details">
+                                <p>A tasty wrap filled with chicken and fresh salad.</p>
+                                <button class="add-to-cart" data-name="Chicken & Salad Wrap" data-price="65">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Chicken Mayo Toastie — R62</summary>
+                            <div class="menu-item-details">
+                                <p>Grilled bread filled with chicken mayonnaise.</p>
+                                <button class="add-to-cart" data-name="Chicken Mayo Toastie" data-price="62">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Bacon and Egg Roll — R58</summary>
+                            <div class="menu-item-details">
+                                <p>A toasted roll filled with crispy bacon and egg.</p>
+                                <button class="add-to-cart" data-name="Bacon and Egg Roll" data-price="58">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Tuna Mayo Sandwich — R60</summary>
+                            <div class="menu-item-details">
+                                <p>A fresh sandwich filled with tuna mayonnaise.</p>
+                                <button class="add-to-cart" data-name="Tuna Mayo Sandwich" data-price="60">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Chicken Caesar Salad — R68</summary>
+                            <div class="menu-item-details">
+                                <p>Fresh lettuce, grilled chicken, croutons and Caesar dressing.</p>
+                                <button class="add-to-cart" data-name="Chicken Caesar Salad" data-price="68">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>French Toast — R65</summary>
+                            <div class="menu-item-details">
+                                <p>Golden French toast served with a sweet topping.</p>
+                                <button class="add-to-cart" data-name="French Toast" data-price="65">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="menu-item">
+                            <summary>Ham and Cheese Sandwich — R55</summary>
+                            <div class="menu-item-details">
+                                <p>A classic sandwich filled with ham and cheese.</p>
+                                <button class="add-to-cart" data-name="Ham and Cheese Sandwich" data-price="55">Add to Cart</button>
+                            </div>
+                        </details>
+                    </li>
+
+                </ul>
+            </section>
+
+        </section>
+    </main>
+
+    <!-- Shopping Cart Bar -->
+    <div class="cart-bar">
+        <div>
+            <span id="cartCount">0 items</span>
+            <span id="cartTotal">Total: R0.00</span>
+        </div>
+
+        <button id="goToCart">Go to Cart</button>
+    </div>
+
+    <!-- Shopping Cart Window -->
+    <div id="cartModal" class="cart-modal">
+        <div class="cart-content">
+
+            <button id="closeCart" class="close-cart">&times;</button>
+
+            <h2>Your Shopping Cart</h2>
+
+            <div id="cartItems">
+                <p>Your cart is currently empty.</p>
+            </div>
+
+            <h3 id="cartGrandTotal">Total: R0.00</h3>
+
+            <button id="checkoutButton">Proceed to Checkout</button>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 The Daily Grind Café. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="JS/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enquiries | The Daily Grind Café Johannesburg</title>
+
+    <meta name="description" content="Contact The Daily Grind Café in Melville, Johannesburg, for product enquiries, catering questions and other café-related requests.">
+
+    <meta name="keywords" content="café enquiries Melville, coffee shop enquiries Johannesburg, catering enquiries, The Daily Grind Café">
+
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <h1>
+                <img src="images/logo.png"
+                     alt="The Daily Grind Café logo"
+                     width="150"
+                     height="150">
+                The Daily Grind Café
+            </h1>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Enquiry Section -->
+    <main>
+        <section>
+
+            <h2>Make an Enquiry</h2>
+
+            <p>
+                Have a question about our menu, services, or café?
+                Complete the form below and our team will get back to you.
+            </p>
+
+            <!-- Enquiry Form -->
+            <form id="enquiryForm" action="#" method="post">
+
+                <!-- Your Details -->
+                <section>
+                    <h3>Your Details</h3>
+
+                    <p>
+                        <label for="full-name">Full Name:</label>
+
+                        <input
+                            type="text"
+                            id="full-name"
+                            name="full-name"
+                            placeholder="Enter your full name"
+                            minlength="2"
+                            maxlength="50"
+                            required>
+                    </p>
+
+                    <!-- Email Field -->
+                    <p>
+                        <label for="email">Email Address:</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email address"
+                            required>
+                    </p>
+
+                    <!-- Phone Field -->
+                    <p>
+                        <label for="phone">Phone Number:</label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number"
+                            pattern="0[0-9]{9}"
+                            title="Enter a 10-digit South African phone number starting with 0">
+                    </p>
+                </section>
+
+                <!-- Enquiry Details -->
+                <section>
+                    <h3>Enquiry Details</h3>
+
+                    <!-- Enquiry Type -->
+                    <p>
+                        <label for="enquiry-type">Type of Enquiry:</label>
+
+                        <select id="enquiry-type" name="enquiry-type" required>
+                            <option value="">--Select an option--</option>
+                            <option value="menu">Menu Question</option>
+                            <option value="booking">Booking Enquiry</option>
+                            <option value="catering">Catering Enquiry</option>
+                            <option value="general">General Enquiry</option>
+                        </select>
+                    </p>
+
+                    <!-- Message Field -->
+                    <p>
+                        <label for="message">Your Message:</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            minlength="10"
+                            maxlength="500"
+                            placeholder="Enter your enquiry here..."
+                            required></textarea>
+                    </p>
+
+                </section>
+
+                <!-- Submit Button -->
+                <p>
+                    <button type="submit">Submit Enquiry</button>
+                </p>
+
+            </form>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 The Daily Grind Café. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
